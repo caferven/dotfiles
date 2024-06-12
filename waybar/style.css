@@ -1,0 +1,127 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    min-height: 0;
+    font-family: Material Design Icons, JetBrainsMono Nerd Font;
+}
+
+window#waybar {
+  background: rgba(17, 17, 27, .6);
+}
+
+tooltip {
+  background: rgba(30, 30, 46, 0.6);
+  border: 1px solid rgba(205, 214, 244, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#custom-wofi {
+  font-size: 15px;
+  color: #89b4fa;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 2px;
+  padding-left: 8px;
+  padding-right: 14px;
+}
+
+#workspaces {
+  border-radius: 10px;
+  margin: 4px;
+  background-color: #1e1e2e;
+}
+
+#workspaces button { 
+  padding: 5px;
+  padding-right: 8px;
+  background: transparent;
+}
+
+#workspaces button.active {
+  border-radius: 10px;
+  color: #1e1e2e;
+  background: #89b4fa;
+  padding-left: 8px;
+  padding-right: 12px;
+  margin: 1.5px;
+}
+
+#workspaces button.hover {
+  border-radius: 10px;
+  background: #313244;
+  margin: 1px;
+}
+
+#cpu {
+  color: #eba0ac;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
+
+#temperature {
+  color: #fab387;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
+
+#clock {
+  color: #b4befe;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding-left: 1px;
+  padding-right: 0px;
+}
+
+#battery {
+  background-color: #1e1e2e;
+  color: #a6e3a1;
+  border-radius: 10px;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#battery.charging {
+  color: #89dceb;
+}
+
+#backlight {
+  color: #f9e2af;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+  padding-left: 5px;
+  padding-right: 8px;
+}
+
+#pulseaudio {
+  color: #f5c2e7;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
+
+#custom-powermenu {
+  color: #89b4fa;
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
+
+#tray {
+  background-color: #1e1e2e;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
